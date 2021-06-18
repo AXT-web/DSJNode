@@ -1,9 +1,9 @@
 const express = require('express')
+const expressJoi = require('@escook/express-joi')
+
 const router = express.Router()
 
 const userHandler = require('../router_handler/user')
-
-const expressJoi = require('@escook/express-joi')
 const { reg_login_schema } = require('../schema/user')
 
 // 注册
